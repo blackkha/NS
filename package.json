@@ -2,7 +2,7 @@
   "name": "nullsig-landing",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+    "build": "mkdir -p dist && npx tailwindcss -i ./input.css -o ./dist/output.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.0",
